@@ -5,15 +5,19 @@
     <title>Objetivo del Squad:80%</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="shortcut icon" href="buho.ico">
+    <link rel="stylesheet" href="maindesign.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
 <body>
   <div class="container text-center">
         <h1>Objetivo del Squad!</h1>
-        <p>Calcula el porcentaje de tu Squad. Obten mas del 80%!.</p> 
-  </div>
-   <br>
+        <p>Calcula el porcentaje de tu Squad. Obten mas del 80%!.</p>
+        <div class="but text-center">
+                <button class="btn-primary"><a href="https://github.com/GraceFT/ObjetivoSquad">Mi Codigo</a></button>
+        </div> 
+    <hr>
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-6 col-md-offset-3">
             <div class="form-group">
                <label for="puntosSquad">Puntos Squad</label>
                <input id="puntosSquad" type="text" class="form-control">
@@ -25,11 +29,10 @@
             <div class="text-center" >
             <button onclick="calcular()" class="btn btn-default">Calcular</button>
             </div>
-            <hr>
             <h1 id="salida" class="text-center"></h1>
         </div>
     </div>  
-   
+</div>  
 </body>
  <script src="main.js"></script>
 </html>

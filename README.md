@@ -15,4 +15,5 @@ Inicio: Calcular el porcentaje del Squad.
         -Mostrar mensaje "Muy bien Squad!"
     - Si no
         - "Pueden hacerlo mejor".
+
 *Fin*

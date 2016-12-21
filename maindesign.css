@@ -1,0 +1,18 @@
+*{
+ color: #fff;   
+}
+body{
+    background: url(fondo.jpg);
+    font-family: "Nunito";
+}
+h1, p{color: #fff;font-weight: bolder}
+.but button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.but a{
+    color: #fff;
+    text-decoration: none;
+}
+
