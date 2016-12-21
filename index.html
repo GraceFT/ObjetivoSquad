@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <title>Objetivo del Squad:80%</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="buho.ico">
 </head>
 <body>
   <div class="container text-center">
-     <div class="row">
         <h1>Objetivo del Squad!</h1>
         <p>Calcula el porcentaje de tu Squad. Obten mas del 80%!.</p> 
-     </div>
   </div>
+   <br>
     <div class="row">
-        <div class="col-md-5 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-2">
             <div class="form-group">
-               <label for="">Puntos Squad</label>
-               <input id="puntosSquad" type="text">
+               <label for="puntosSquad">Puntos Squad</label>
+               <input id="puntosSquad" type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label for="">Cantidad maxima de puntos</label>
-                <input id="maxPuntos" type="text">  
+                <label for="maxPuntos">Cantidad maxima de puntos</label>
+                <input id="maxPuntos" type="text" class="form-control">  
             </div>
-            <div>
+            <div class="text-center" >
             <button onclick="calcular()" class="btn btn-default">Calcular</button>
             </div>
-            <h1 id="salida"></h1>
+            <hr>
+            <h1 id="salida" class="text-center"></h1>
         </div>
     </div>  
    
